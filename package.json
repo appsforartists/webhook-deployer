@@ -19,8 +19,12 @@
     "webhook"
   ],
   "preferGlobal": true,
-  "bin": "./bin/webhook-deployer",
-  "author": "Camilo Tapia",
+  "bin": {
+    "webhook-deployer": "./bin/webhook-deployer"
+  },
+  "author": {
+    "name": "Camilo Tapia"
+  },
   "license": "MIT",
   "devDependencies": {
     "mocha": "~1.9.0",
@@ -36,6 +40,7 @@
     "keygrip": "~0.2.2",
     "mustache": "~0.7.2",
     "node-github": "0.0.3",
+    "nunt": "~1.5.5",
     "prompt": "~0.2.9",
     "selenium-standalone": "^2.43.1-5",
     "socket.io": "^1.1.0",
